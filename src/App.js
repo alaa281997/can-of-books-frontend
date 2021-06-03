@@ -27,7 +27,7 @@ class App extends React.Component {
                 <Route exact path="/">
                 {this.props.auth0.isAuthenticated ? <MyFavoriteBooks/> :<Login/>}
                 </Route>
-                <Route path='/User'>
+                <Route path='/profile'>
                 <User/>
                 </Route>
                 
